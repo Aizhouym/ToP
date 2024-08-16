@@ -4,12 +4,12 @@
 To get started, follow these steps:
 
 1. **Setup Python Environment** Ensure you have a version 3.9 or higher Python environment. You can create and
-   activate this environment using the following commands, replacing `DynPro_env` with your preferred environment
+   activate this environment using the following commands, replacing `ToP_env` with your preferred environment
    name:
 
    ```
-   conda create -n DynPro_env python=3.9 -y
-   conda activate DynPro_env
+   conda create -n ToP_env python=3.9 -y
+   conda activate ToP_env
    ```
 
 2. **Install Dependencies:** Move into the `ChatDev` directory and install the necessary dependencies by running:
@@ -61,7 +61,7 @@ To get started, follow these steps:
    cd WareHouse/project_name_DefaultOrganization_timestamp
    python main.py
    ```
-6. **NLDD** Different software development tasks are included in the dataset which contains 5 categories.
+6. **NLDD** Different software development tasks are included in the dataset which contains 5 categories, You can choose any software development task in it.
 
 
 ## BPMN transfer to process textual description 📃
@@ -85,4 +85,5 @@ To get started, follow these steps:
    ```
 
 3. Use the ''' https://github.com/woped/P2T.git ''' to clone tool used for process description transfering.
-4. Put process description as prompt to enchance the LLM
+4. Put process description as prompt to enchance the LLM.
+5. Compare the __SR__ of the generated instances of the same task before and after LLM enhancement.
