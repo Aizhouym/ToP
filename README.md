@@ -64,7 +64,7 @@ To get started, follow these steps:
 6. **NLDD** Different software development tasks are included in the dataset which contains 5 categories, You can choose any software development task in it.
 
 
-## BPMN transfer to process textual description 📃
+## BPMN transfer to process textual description 📃 and LLM enhancement 💪
 1.  Use the desired __SR__ to filter the instances in `traces_data.txt`.
 2.  If you don't install pm4py, following the below instructions:
    ```
